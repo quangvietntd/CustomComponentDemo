@@ -6,12 +6,12 @@ class CustomText extends Component {
     //Xác thực loại dữ liệu của prop
     static propTypes = {
         content: PropTypes.string.isRequired, //Khai báo prop là bắt buộc
-        textStyles: PropTypes.oneOfType([
+        textStyle: PropTypes.oneOfType([
             PropTypes.array,
             PropTypes.number,
             PropTypes.shape({}),
         ]),
-        buttonStyles: PropTypes.oneOfType([
+        buttonStyle: PropTypes.oneOfType([
             PropTypes.array,
             PropTypes.number,
             PropTypes.shape({}),
